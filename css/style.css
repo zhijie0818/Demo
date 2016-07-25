@@ -1,0 +1,20 @@
+*{margin: 0px; padding: 0px; list-style: none; vertical-align: middle;}
+body{ background-color: #ccc;font:normal 100% "\5FAE\8F6F\96C5\9ED1", Helvetica, Arial, sans-serif; }
+html{ font-size: 12px; }
+li{ list-style: none; }
+.wrap{ max-width: 640px; min-width: 320px; background: white; margin: 0 auto; width: 100%; }
+.pro{ margin: 0 auto; }
+.homelogo{overflow: hidden; height: 50px; background: url(../imgs/logo.png) no-repeat 2px; background-size: auto 30px; }
+.clearfix{ width: 100%; background: #666; display: flex;}
+.clearfix:after {content:"";height:0;display:block;clear:both;}
+.clearfix li{ list-style: none; overflow: hidden; width: 25%; text-align: center;}
+.header{ width: 100%; height: 50px; line-height: 50px;  border-bottom: 2px solid #ececec; position: static;}
+.clearfix li a{ font-size: 16px; display: block; height: 27px; line-height: 27px; white-space: nowrap;color: white; text-decoration: none;}
+.big_content{ position: static; width: 100%; font-size: 16px; }
+.timeAqi{ padding: 8px 0px ; border:none; }
+.timeAqi span{ display: inline-block; text-align: right; padding: 0px 10px 0px 13px; background:#bbb; color: #fff; height: 30px; line-height: 30px; margin-right: 0px; }
+.timeAqi img{ width: 32px; height: 32px; display: inline-block; padding: 0px 8px;}
+.list_one{ padding: 10px 15px; border-bottom: 1px solid #ddd; }
+.level{ float: right;margin-left: 10px; background-color: #479823; display: inline-block; font-style: normal; height: 24px; line-height: 24px; padding: 0 8px; color: white; }
+.list_one span{ margin-right:5px; font-size: 14px; color: #999; }
+.dashi{ height: 45px; line-height: 45px; background-color: #ddd; text-align: center; font-weight: normal; }

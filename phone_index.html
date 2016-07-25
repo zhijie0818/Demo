@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+	<title>rem基础布局</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript" src="js/main.js"></script>
+<!-- 	<style type="text/css">
+/*=== base style===*/
+*{margin: 0px; padding: 0px;}
+ul{list-style: none;}
+.wrap{min-width: 320px; max-width: 640px; width: 100%; margin: 0px auto;; background: #2a6ace; font-family:"微软雅黑", "helvetica neue",tahoma,"hiragino sans gb",stheiti,"wenquanyi micro hei",\5FAE\8F6F\96C5\9ED1,\5B8B\4F53,sans-serif; font-size: 12px;}/*适用于手机端：字体大小用em，1em=16px；为默认字体大小;最大宽度640*/
+
+.pro{width:6.2rem; margin: 0px auto; padding-top: 20px; overflow: hidden;}
+.clearfix:after {content:"";height:0;display:block;clear:both;}
+.clearfix {zoom:1;}
+.pro ul{width:6.4rem;}
+.pro li{width: 3rem; height: 3.6rem; float: left; margin: 0 0.2rem 0.2rem 0;}
+.pro li .box{width: 3rem; height: 3rem; background: #ccc;}
+.pro li p{font-size: 0.24rem; line-height: 0.6rem; text-align: center;}
+</style>
+-->
+</head>
+<body>
+<div class="wrap">
+	<div class="pro">
+		<nav class="header">
+			<div class="homelogo"></div>
+		</nav>
+		<ul class="clearfix">
+			<li>
+				<a href="#">首页</a>
+			</li>
+			<li>
+				<a href="#">财经新闻</a>
+			</li>
+			<li>
+				<a href="#">财经日历</a>
+			</li>
+			<li>
+				<a href="#">实时行情</a>
+			</li>
+		</ul>
+	</div>
+	<div class="big_content">
+		<ul>
+			<li class="timeAqi">
+				<span>04:30</span>
+				<img src="imgs/mg.png" alt="美国"/>
+			</li>
+			<li class="list_one">
+				<p>
+					<i class="level">中</i>
+				龙卷风龙卷风龙卷风龙卷风</p>
+				<span>前期值257</span>
+				<span>预期100</span>
+				<span>公布-48</span>
+				
+			</li>
+			<li class="list_one">
+				<p>
+					<i class="level">中</i>
+				龙卷风龙卷风龙卷风龙卷风</p>
+				<span>前期值257</span>
+				<span>预期100</span>
+				<span>公布-48</span>
+			</li>
+		</ul>
+		<h3 class="dashi">财经大事</h3>
+		<ul>
+			<li class="timeAqi">
+				<span>----</span>
+			</li>
+						<li class="list_one">
+				<p>
+					<i class="level">中</i>
+				龙卷风龙卷风龙卷风龙卷风</p>
+			</li>
+		</ul>
+		<h3 class="dashi">假期预告</h3>
+		<ul>
+			<li class="list_one">今日无重要预告公布！</li>
+		</ul>
+	</div>
+</div>
+</body>
+</html>
